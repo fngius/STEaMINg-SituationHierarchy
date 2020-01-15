@@ -21,8 +21,17 @@ public final class App {
         situation_Set.add("s_3"); 
         situation_Set.add("s_4"); 
         situation_Set.add("s_5");
-        situation_Set.add("s_6"); 
-
+        situation_Set.add("s_6");
+        situation_Set.add("s_7");
+        situation_Set.add("s_8");
+        situation_Set.add("s_9");
+        situation_Set.add("s_10");
+        situation_Set.add("s_11");
+        situation_Set.add("s_12");
+        situation_Set.add("s_13");
+        situation_Set.add("s_14"); 
+        
+        
         /*
             SET OF CONSTRAINTS (C)
         */
@@ -32,26 +41,95 @@ public final class App {
         constraint_Set.add("c_3"); 
         constraint_Set.add("c_4"); 
         constraint_Set.add("c_5");
-        constraint_Set.add("c_6"); 
+        constraint_Set.add("c_6");
+        constraint_Set.add("c_7");
+        constraint_Set.add("c_8");
+        constraint_Set.add("c_9");
+        constraint_Set.add("c_10");
+        constraint_Set.add("c_11");
+        constraint_Set.add("c_12");
+        constraint_Set.add("c_13");
+        constraint_Set.add("c_14");
+        constraint_Set.add("c_15");
+        constraint_Set.add("c_16");
+        constraint_Set.add("c_17"); 
+        constraint_Set.add("c_18");
+        constraint_Set.add("c_19");
+        constraint_Set.add("c_20");
+        constraint_Set.add("c_21");
+        constraint_Set.add("c_22");
+        constraint_Set.add("c_23");
         
         /*
             RELATION AMONG SITUATIONS AND CONSTRAINTS (R)
         */
         Pair<String, String> pair1 = new Pair<String, String>("s_1", "c_1");
         Pair<String, String> pair2 = new Pair<String, String>("s_1", "c_3");
-        Pair<String, String> pair3 = new Pair<String, String>("s_1", "c_6");
-        Pair<String, String> pair4 = new Pair<String, String>("s_2", "c_1");
-        Pair<String, String> pair5 = new Pair<String, String>("s_2", "c_4");
-        Pair<String, String> pair6 = new Pair<String, String>("s_2", "c_6");
-        Pair<String, String> pair7 = new Pair<String, String>("s_3", "c_2");
-        Pair<String, String> pair8 = new Pair<String, String>("s_3", "c_4");
-        Pair<String, String> pair9 = new Pair<String, String>("s_3", "c_6");
-        Pair<String, String> pair10 = new Pair<String, String>("s_4", "c_2");
-        Pair<String, String> pair11 = new Pair<String, String>("s_4", "c_5");
-        Pair<String, String> pair12 = new Pair<String, String>("s_5", "c_3");
-        Pair<String, String> pair13 = new Pair<String, String>("s_5", "c_6");
-        Pair<String, String> pair14 = new Pair<String, String>("s_6", "c_1");
-        Pair<String, String> pair15 = new Pair<String, String>("s_6", "c_6");
+        Pair<String, String> pair3 = new Pair<String, String>("s_1", "c_4");
+        Pair<String, String> pair4 = new Pair<String, String>("s_1", "c_5");
+        Pair<String, String> pair5 = new Pair<String, String>("s_1", "c_6");
+
+
+        Pair<String, String> pair6 = new Pair<String, String>("s_2", "c_2");
+        Pair<String, String> pair7 = new Pair<String, String>("s_2", "c_3");
+        Pair<String, String> pair8 = new Pair<String, String>("s_2", "c_4");
+        Pair<String, String> pair9 = new Pair<String, String>("s_2", "c_5");
+        Pair<String, String> pair10 = new Pair<String, String>("s_2", "c_6");
+        
+        
+        Pair<String, String> pair11 = new Pair<String, String>("s_3", "c_8");
+        Pair<String, String> pair12 = new Pair<String, String>("s_3", "c_10");
+        Pair<String, String> pair13 = new Pair<String, String>("s_3", "c_11");
+        Pair<String, String> pair14 = new Pair<String, String>("s_3", "c_6");
+
+        Pair<String, String> pair15 = new Pair<String, String>("s_4", "c_9");
+        Pair<String, String> pair16 = new Pair<String, String>("s_4", "c_10");
+        Pair<String, String> pair17 = new Pair<String, String>("s_4", "c_11");
+        Pair<String, String> pair18 = new Pair<String, String>("s_4", "c_6");
+
+        Pair<String, String> pair19 = new Pair<String, String>("s_5", "c_7");
+        Pair<String, String> pair20 = new Pair<String, String>("s_5", "c_9");
+        Pair<String, String> pair21 = new Pair<String, String>("s_5", "c_10");
+        Pair<String, String> pair22 = new Pair<String, String>("s_5", "c_11");
+
+
+        Pair<String, String> pair23 = new Pair<String, String>("s_6", "c_15");
+        Pair<String, String> pair24 = new Pair<String, String>("s_6", "c_17");
+        Pair<String, String> pair25 = new Pair<String, String>("s_6", "c_18");
+
+        Pair<String, String> pair26 = new Pair<String, String>("s_7", "c_16");
+        Pair<String, String> pair27 = new Pair<String, String>("s_7", "c_17");
+        Pair<String, String> pair28 = new Pair<String, String>("s_7", "c_18");
+
+        Pair<String, String> pair29 = new Pair<String, String>("s_8", "c_17");
+        Pair<String, String> pair30 = new Pair<String, String>("s_8", "c_19");
+        Pair<String, String> pair31 = new Pair<String, String>("s_8", "c_6");
+
+        Pair<String, String> pair32 = new Pair<String, String>("s_9", "c_17");
+        Pair<String, String> pair33 = new Pair<String, String>("s_9", "c_20");
+        Pair<String, String> pair34 = new Pair<String, String>("s_9", "c_6");
+
+        Pair<String, String> pair35 = new Pair<String, String>("s_10", "c_16");
+        Pair<String, String> pair36 = new Pair<String, String>("s_10", "c_17");
+        Pair<String, String> pair37 = new Pair<String, String>("s_10", "c_18");
+        Pair<String, String> pair38 = new Pair<String, String>("s_10", "c_19");
+
+        Pair<String, String> pair39 = new Pair<String, String>("s_11", "c_12");
+        Pair<String, String> pair40 = new Pair<String, String>("s_11", "c_21");
+        Pair<String, String> pair41 = new Pair<String, String>("s_11", "c_23");
+
+        Pair<String, String> pair42 = new Pair<String, String>("s_12", "c_12");
+        Pair<String, String> pair43 = new Pair<String, String>("s_12", "c_22");
+        Pair<String, String> pair44 = new Pair<String, String>("s_12", "c_23");
+
+        Pair<String, String> pair45 = new Pair<String, String>("s_13", "c_13");
+        Pair<String, String> pair46 = new Pair<String, String>("s_13", "c_21");
+        Pair<String, String> pair47 = new Pair<String, String>("s_13", "c_23");
+
+        Pair<String, String> pair48 = new Pair<String, String>("s_14", "c_14");
+        Pair<String, String> pair49 = new Pair<String, String>("s_14", "c_21");
+        Pair<String, String> pair50 = new Pair<String, String>("s_14", "c_23");
+
         Set<Pair<String, String>> rel_Sit_Cons = new HashSet<Pair<String, String>>();
         rel_Sit_Cons.add(pair1);
         rel_Sit_Cons.add(pair2);
@@ -68,19 +146,58 @@ public final class App {
         rel_Sit_Cons.add(pair13);
         rel_Sit_Cons.add(pair14);
         rel_Sit_Cons.add(pair15);
-
+        rel_Sit_Cons.add(pair16);
+        rel_Sit_Cons.add(pair17);
+        rel_Sit_Cons.add(pair18);
+        rel_Sit_Cons.add(pair19);
+        rel_Sit_Cons.add(pair20);
+        rel_Sit_Cons.add(pair21);
+        rel_Sit_Cons.add(pair22);
+        rel_Sit_Cons.add(pair23);
+        rel_Sit_Cons.add(pair24);
+        rel_Sit_Cons.add(pair25);
+        rel_Sit_Cons.add(pair26);
+        rel_Sit_Cons.add(pair27);
+        rel_Sit_Cons.add(pair28);
+        rel_Sit_Cons.add(pair29);
+        rel_Sit_Cons.add(pair30);
+        rel_Sit_Cons.add(pair31);
+        rel_Sit_Cons.add(pair32);
+        rel_Sit_Cons.add(pair33);
+        rel_Sit_Cons.add(pair34);
+        rel_Sit_Cons.add(pair35);
+        rel_Sit_Cons.add(pair36);
+        rel_Sit_Cons.add(pair37);
+        rel_Sit_Cons.add(pair38);
+        rel_Sit_Cons.add(pair39);
+        rel_Sit_Cons.add(pair40);
+        rel_Sit_Cons.add(pair41);
+        rel_Sit_Cons.add(pair42);
+        rel_Sit_Cons.add(pair43);
+        rel_Sit_Cons.add(pair44);
+        rel_Sit_Cons.add(pair45);
+        rel_Sit_Cons.add(pair46);
+        rel_Sit_Cons.add(pair47);
+        rel_Sit_Cons.add(pair48);
+        rel_Sit_Cons.add(pair49);
+        rel_Sit_Cons.add(pair50);
+        
         /*
             RELATION AMONG THE CONSTRAINTS (T)
         */
-        Pair<String, String> pair1_cons = new Pair<String, String>("c_1", "c_2");
-        Pair<String, String> pair2_cons = new Pair<String, String>("c_3", "c_4");
-        Pair<String, String> pair3_cons = new Pair<String, String>("c_4", "c_5");
-        Pair<String, String> pair4_cons = new Pair<String, String>("c_3", "c_5");;
+        Pair<String, String> pair1_cons = new Pair<String, String>("c_22", "c_21");
+        Pair<String, String> pair2_cons = new Pair<String, String>("c_20", "c_19");
+        Pair<String, String> pair3_cons = new Pair<String, String>("c_14", "c_13");
+        Pair<String, String> pair4_cons = new Pair<String, String>("c_9", "c_8");
+        Pair<String, String> pair5_cons = new Pair<String, String>("c_2", "c_1");
+        Pair<String, String> pair6_cons = new Pair<String, String>("c_16", "c_15");
         Set<Pair<String, String>> rel_Cons_Cons = new HashSet<Pair<String, String>>();
         rel_Cons_Cons.add(pair1_cons);
         rel_Cons_Cons.add(pair2_cons);
         rel_Cons_Cons.add(pair3_cons);
         rel_Cons_Cons.add(pair4_cons);
+        rel_Cons_Cons.add(pair5_cons);
+        rel_Cons_Cons.add(pair6_cons);
 
         /*
             RELTAION AMONG SITUATIONS AND CONSTRAINTS CONSIDERING T
